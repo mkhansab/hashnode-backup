@@ -2,7 +2,7 @@
 title: "Introduction to Computer Networks: Key Concepts and Basics"
 seoTitle: "Computer Networks: Essential Concepts & Basics"
 seoDescription: "Learn the essential concepts of computer networks, the OSI model, and the critical layers that enable our connected digital world"
-datePublished: Thu Jul 24 2025 18:18:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-24T18:18:49.030Z
 cuid: cmdhpupty000c02jv4fffd6se
 slug: introduction-to-computer-networks-key-concepts-and-basics
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/M5tzZtFCOfs/upload/b3ea93678ca09b98a3324599bf79993e.jpeg
