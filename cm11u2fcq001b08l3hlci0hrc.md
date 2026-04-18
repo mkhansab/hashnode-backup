@@ -2,7 +2,7 @@
 title: "What You Need to Know About Cloud Computing"
 seoTitle: "Cloud Computing: Essential Information"
 seoDescription: "Learn about the essentials of cloud computing, its advantages, and deployment models. Discover AWS services, regions, and availability zones"
-datePublished: Sat Sep 14 2024 07:36:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-14T07:36:00.314Z
 cuid: cm11u2fcq001b08l3hlci0hrc
 slug: what-you-need-to-know-about-cloud-computing
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/TKAg3WignSw/upload/f6b1d19866ac94c5ef7c968344fad415.jpeg
