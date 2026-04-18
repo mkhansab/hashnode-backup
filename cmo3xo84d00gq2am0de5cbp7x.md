@@ -61,7 +61,7 @@ For example, this curl recipe retrieves a session token that’s valid for the f
 ```shell
 $ TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 
-$ curl -H "X-aws-ec2-metadata-token: TOKEN" http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance
+$ curl -H "X-aws-ec2-metadata-token: \$TOKEN" http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance
 
 Output:
 {
