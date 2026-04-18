@@ -2,7 +2,7 @@
 title: "Key React Hooks Explained: useState, useEffect, and useContext"
 seoTitle: "React Hooks: useState, useEffect, useContext"
 seoDescription: "Understand React hooks like `useState`, `useEffect`, and `useContext` for managing state, handling side effects, and avoiding prop drilling"
-datePublished: Sat Jun 29 2024 17:15:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-29T17:15:56.467Z
 cuid: cly0dvmwj000409l5gveg7n0j
 slug: key-react-hooks-explained
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719681839583/1a3df9b2-0f88-4d7c-bb69-ddae349cdd4e.jpeg
