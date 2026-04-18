@@ -58,11 +58,12 @@ This approach ensures that only requests originating from within the instance ca
 
 For example, this curl recipe retrieves a session token that’s valid for the full six hours (21600 seconds) and then uses that token to access the EC2 instance’s profile metadata:
 
-```shell
+````shell
+```bash
 $ TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 
 $ curl -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance
-
+```
 Output:
 {
   "Code" : "Success",
@@ -73,7 +74,7 @@ Output:
   "Token" : "IQoJb3JpZ2luTEiSDBGAiEA9+W761PO/4SOcqcQ3Ty4PsnK4WsSzEZP6WgCIQD4+koxgcjdEPnL9whM0R0TyZdjhFPY5cfBirTBAjc//////////8rxcf1/OykGpvb46+VEIFL+5...",
   "Expiration" : "2026-04-18T01:06:48Z"
 }
-```
+````
 
 **Note**: *The above* `curl` *request uses IMDSv2, as it includes the session token in the request header.*
 
