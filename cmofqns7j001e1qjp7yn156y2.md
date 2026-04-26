@@ -99,8 +99,8 @@ The presentation layer is mostly responsible for
             
         *   Binary: 01001000 01100101 01101100 01101100 01101111
             
-*   **Data Compression  
-    **Suppose after translation we get 1MB of Data. So, Data Compression tries to reduce the size of the data without much loss because the less the size is the faster transmission can happen over the network.
+*   **Data Compression**  
+    Suppose after translation we get 1MB of Data. So, Data Compression tries to reduce the size of the data without much loss because the less the size is the faster transmission can happen over the network.
     
 *   **Encryption**  
     Encrypts the data so that it can’t be misused. HTTPS uses SSL (Secure Socket Layer), which is a cryptographic protocol designed to provide communications security over a computer network.
@@ -134,13 +134,12 @@ The presentation layer is mostly responsible for
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753379737991/9315c397-9cda-48b3-a44c-70a7aedc9a62.png align="right")
     
-
-1.  **Flow Control  
-    **Managing the flow of data transmitted from one host to another host. The server is sending 10Mbps, but the host is not able to process. So, it requests the server to transmit 1Mbps transfer rate.
+2.  **Flow Control**  
+    Managing the flow of data transmitted from one host to another host. The server is sending 10Mbps, but the host is not able to process. So, it requests the server to transmit 1Mbps transfer rate.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753379781138/0994b75f-c8b2-45db-857d-0b629da3df46.png align="center")
     
-2.  **Error Control**  
+3.  **Error Control**  
     There can be a loss of data or data might be corrupted. So, we use error control. These can be fixed in the Transport layer by something called Automatic Repeat Request (in case of loss of data receiver will ask to resend the data) or checksum (checks if the data is corrupted or not).
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753379812987/a2ef54b0-ac45-422e-bc71-7b90190cf799.png align="center")
@@ -199,8 +198,8 @@ Apart from all these Data Link Layer does a few other things, such as
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753380218841/ec560a65-f8fb-46ec-8989-7f0fe5060e10.png align="center")
 
-1.  **Error Detection  
-    **It is added in the tail part; It is the mechanism to detect any error in the data. Some algorithms, like CRC (Cyclic redundancy check), Checksum, Bit Parity, etc., help us do that.
+1.  **Error Detection**  
+    It is added in the tail part; It is the mechanism to detect any error in the data. Some algorithms, like CRC (Cyclic redundancy check), Checksum, Bit Parity, etc., help us do that.
     
 
 ### Physical Layer (Layer 1)
